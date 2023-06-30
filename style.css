@@ -1,0 +1,203 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3 {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* Header Styles */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Hero Section Styles */
+#hero {
+  background-image: url('hero-background.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-content {
+  text-align: center;
+}
+
+
+
+.hero-content h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #000; /* Set color to black */
+}
+
+.hero-content p {
+  font-size: 18px;
+  margin-bottom: 30px;
+  color: #000; /* Set color to black */
+}
+
+
+
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Main Section Styles */
+section {
+  padding: 40px 0;
+}
+
+#about {
+  background-color: #F06292;
+  text-align: center;
+}
+
+#about h2 {
+  color: #fff;
+}
+
+/* Skills Section Styles */
+/* Skills Section Styles */
+#skills ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center; /* Added align-items property */
+  height: 100%; /* Added height property */
+}
+
+#skills h2 {
+  text-align: center; /* Added text-align property */
+}
+
+
+#skills ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#skills ul li {
+  margin: 10px;
+  padding: 10px;
+  background-color: #64B5F6;
+  border-radius: 5px;
+  color: #fff;
+}
+
+#projects {
+  background-color: #FFD54F;
+  text-align: center;
+}
+
+#projects h2 {
+  color: #fff;
+}
+
+.project {
+  margin-bottom: 20px;
+}
+
+.project h3 {
+  font-size: 24px;
+  color: #333;
+}
+
+.project p {
+  font-size: 16px;
+  color: #333;
+}
+
+.project a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+}
+
+#achievements {
+  background-color: #4DB6AC;
+  text-align: center;
+}
+
+#achievements h2 {
+  color: #fff;
+}
+
+#contact {
+  background-color: #BA68C8;
+  text-align: center;
+  padding-bottom: 80px;
+}
+
+#contact h2 {
+  color: #fff;
+}
+
+#contact p {
+  color: #fff;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #333;
+  border-radius: 5px;
+}
+
+form button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Footer Styles */
+footer {
+  background
